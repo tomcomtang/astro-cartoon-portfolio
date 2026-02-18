@@ -1,69 +1,68 @@
 // Site-wide configuration
 export const siteConfig = {
   // Site metadata
-  name: "Astro Blog",
-  title: "Astro Blog",
-  description: "A modern blog built with Astro",
+  name: "Portfolio",
+  title: "Portfolio Luca",
   
   // Navigation
   navigation: {
-    home: "Home",
+    home: "Inicio",
     posts: "Posts",
-    contact: "Contact",
-    comments: "Comments",
+    contact: "Contacto",
+    comments: "Comentarios",
   },
   
   // Hero Section
   hero: {
-    prefix: "I am",
-    name: "Someone Name",
-    intro: "I am a web developer and blogger, passionate about sharing knowledge and building cool things with code.\nWelcome to my portfolio blog!",
+    prefix: "Yo soy",
+    name: "Luca",
+    intro: "Soy desarrollador de software y aquí compartire mis proyectos realizados.\nWBienvenido a mi blog!",
     avatar: "/image/20943608.jpeg",
     buttons: {
-      viewPosts: "View Posts",
-      contactMe: "Contact Me",
+      viewPosts: "Ver posts",
+      contactMe: "Contacto",
     },
-    socialLinks: [
-      { name: "Twitter", icon: "/svg/twitter.svg", url: "https://x.com/astrodotbuild" },
-      { name: "LinkedIn", icon: "/svg/linkedin.svg", url: "https://www.linkedin.com/company/astrodotbuild" },
-      { name: "Facebook", icon: "/svg/facebook.svg", url: "https://www.facebook.com/astrodotbuild" },
-      { name: "GitHub", icon: "/svg/github.svg", url: "https://github.com/tomcomtang/astro-cartoon-portfolio" },
-    ],
   },
   
   // About Section
   about: {
-    title: "About Me",
-    text: "Hi, I'm Someone, a passionate web developer and blogger. I love exploring new technologies and sharing knowledge with the community. On this blog, you'll find my thoughts on web development, tutorials, and project showcases. I hope my content can inspire others in their coding journey.",
+    title: "Acerca de mi",
+    text: [
+     "Hola soy desarrollador de software con una formación técnica en el análisis de sistemas",
+     "Realice un terciario donde aprendí buenas prácticas en POO, diagramas de flujo y arquitectura de sistemas", 
+     "Trabaje con tecnologías como Java y .NET utilizando Visual Studio, además de teoría de redes (practicas en cisco)",
+     "Excel VBA y Microsoft Proyect para gestión de proyectos",
+     "Actualmente estoy enfocado en el desarrollo web aprendiendo JavaScript",
+     "En este blog comparto mis proyectos prácticos y ejercicios, mientras sigo mi experiencia en el desarrollo frontend y backend",
+     "Estoy abierto a oportunidades donde pueda aportar mis conocimientos y crecer como profesional"
+     ]
   },
   
   // Contact Page
   contact: {
-    title: "Get In Touch",
-    subtitle: "I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.",
+    title: "Ponte en contacto",
+    subtitle: "Abierto a comenzar nuevos proyectos",
     info: {
       email: {
         label: "Email",
-        value: "tom@example.com",
-        link: "mailto:tom@example.com",
+        value: "luca9802012@gmail.com",
+        link: "mailto:luca9802012@gmail.com",
       },
       phone: {
-        label: "Phone",
-        value: "+1 (234) 567-890",
-        link: "tel:+1 (234) 567-890",
+        label: "Telefono",
+        value: "3462308311",
+        link: "tel:3462308311",
       },
       location: {
-        label: "Location",
-        value: "San Francisco, CA",
+        label: "Localidad",
+        value: "Venado Tuerto, Santa Fe",
       },
     },
     followMe: {
-      title: "Follow Me",
+      title: "Sígueme",
       links: [
-        { name: "Twitter", icon: "/svg/twitter.svg", url: "https://x.com/astrodotbuild" },
-        { name: "LinkedIn", icon: "/svg/linkedin.svg", url: "https://www.linkedin.com/company/astrodotbuild" },
-        { name: "Facebook", icon: "/svg/facebook.svg", url: "https://www.facebook.com/astrodotbuild" },
-        { name: "GitHub", icon: "/svg/github.svg", url: "https://github.com/tomcomtang/astro-cartoon-portfolio" },
+        { name: "LinkedIn", icon: "/svg/linkedin.svg", url: "https://www.linkedin.com/in/luca-santillan-28241a314/" },
+        { name: "GitHub", icon: "/svg/github.svg", url: "https://github.com/Luca689" },
       ],
     },
     footerText: [
@@ -75,40 +74,19 @@ export const siteConfig = {
   
   // Footer
   footer: {
-    copyright: "© 2025 Someone. All rights reserved.",
+    copyright: "© 2026. Todos los derechos reservados.",
     links: [
       { text: "Privacy Policy", url: "#" },
       { text: "Terms of Service", url: "#" },
-      { text: "Sitemap", url: "#" },
+      { text: "Site", url: "#" },
     ],
-    github: {
-      text: "Star this project on Github",
-      url: "https://github.com/tomcomtang/astro-cartoon-portfolio",
-    },
   },
   
-  // Posts Page
-  posts: {
-    title: "Blog Posts",
-    subtitle: "Explore our latest articles on web development, design, and technology",
-    searchPlaceholder: "Search posts...",
-  },
   
   // Comments Page
   comments: {
-    title: "Comments & Discussion",
-    subtitle: "Share your thoughts, questions, or suggestions here. Let's connect and discuss!",
-    guidelines: {
-      title: "Community Guidelines",
-      items: [
-        "Be respectful and constructive in your comments",
-        "No spam, self-promotion, or advertising allowed",
-        "No personal attacks, hate speech, or harassment",
-        "Stay on topic and keep discussions relevant",
-        "No inappropriate, offensive, or illegal content",
-        "Use clear, friendly, and inclusive language",
-      ],
-    },
+    title: "Comentarios",
+    subtitle: "Compartes tus ideas o preguntas aquí",
   },
 };
 
