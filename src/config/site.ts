@@ -16,7 +16,7 @@ export const siteConfig = {
   // Hero Section
   hero: {
     prefix: "I am",
-    name: "Someone Name",
+    name: "Luca",
     intro: "I am a web developer and blogger, passionate about sharing knowledge and building cool things with code.\nWelcome to my portfolio blog!",
     avatar: "/image/20943608.jpeg",
     buttons: {
