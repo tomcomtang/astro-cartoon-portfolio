@@ -78,7 +78,7 @@ export const siteConfig = {
     links: [
       { text: "Privacy Policy", url: "#" },
       { text: "Terms of Service", url: "#" },
-      { text: "Sitemap", url: "#" },
+      { text: "Site", url: "#" },
     ],
   },
   
