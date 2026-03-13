@@ -16,9 +16,9 @@ export const siteConfig = {
   // Hero Section
   hero: {
     prefix: "I am",
-    name: "Someone Name",
-    intro: "I am a web developer and blogger, passionate about sharing knowledge and building cool things with code.\nWelcome to my portfolio blog!",
-    avatar: "/image/20943608.jpeg",
+    name: "Cristian Vaca",
+    intro: "I am a Systems Engineering student passionate about technology and problem-solving. I enjoy developing efficient software solutions and continuously expanding my technical skills in programming, databases, and system design.\nI am driven by curiosity, logical thinking, and a commitment to building scalable and impactful digital solutions.\nWelcome to my portfolio blog!",
+    avatar: "/image/perfil.jpeg", 
     buttons: {
       viewPosts: "View Posts",
       contactMe: "Contact Me",

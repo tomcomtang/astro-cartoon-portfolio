@@ -186,7 +186,7 @@ nav {
   font-weight: 700;
   font-size: 1.5rem;
   letter-spacing: 0.05em;
-  color: #ec6664;
+  color: #601EF9;
   text-decoration: none;
   display: flex;
   align-items: center;
@@ -220,7 +220,7 @@ nav {
 
 .menu-link {
   font-weight: 700;
-  color: #d48a88;
+  color: #601EF9;
   text-decoration: none;
   font-size: 1.1rem;
   transition:
@@ -238,7 +238,7 @@ nav {
 }
 
 .menu-link.active {
-  color: #ec6664;
+  color: #601EF9;
 }
 
 /* Hero Section */
